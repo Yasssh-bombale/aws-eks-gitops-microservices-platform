@@ -1,0 +1,17 @@
+# to USE Github container registry
+Generate PAT Token in Github store inside a variable export VAR=password
+
+echo $GHCR_TOKEN | docker login ghcr.io -u <git_username> --password-stdin
+
+
+# how to pull from google cloud platform repo
+
+docker pull us-central1-docker.pkg.dev/google-samples/microservices-demo/cartservice:v0.10.5
+
+docker tag us-central1-docker.pkg.dev/google-samples/microservices-demo/cartservice:v0.10.5 ghcr.io/<git_username>/cartservice:v0.10.5
+
+docker push ghcr.io/<git_username>/cartservice:v0.10.5
+
+
+adservice done
+carservice done

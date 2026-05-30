@@ -40,7 +40,7 @@ images:
     repository: ghcr.io/yasssh-bombale/loadgenerator
     tag: v0.10.5
   paymentservice:
-    repository: ghcr.io/yasssh-bombale/paymentservice
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/paymentservice
     tag: v0.10.5
   productcatalogservice:
     repository: ghcr.io/yasssh-bombale/productcatalogservice
@@ -49,7 +49,7 @@ images:
     repository: ghcr.io/yasssh-bombale/recommendationservice
     tag: v0.10.5
   shippingservice:
-    repository: ghcr.io/yasssh-bombale/shippingservice
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/shippingservice
     tag: v0.10.5
 
 serviceAccounts:

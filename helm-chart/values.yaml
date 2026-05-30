@@ -20,37 +20,37 @@ images:
   adservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/adservice
     # Overrides the image tag whose default is the chart appVersion.
-    tag: v0.10.5
+    tag: v0.10.4
   cartservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/cartservice
-    tag: v0.10.5
+    tag: v0.10.4
   checkoutservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/checkoutservice
-    tag: v0.10.5
+    tag: v0.10.4
   currencyservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/currencyservice
-    tag: v0.10.5
+    tag: v0.10.4
   emailservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/emailservice
-    tag: v0.10.5
+    tag: v0.10.4
   frontend:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/frontend
-    tag: v0.10.5
+    tag: v0.10.4
   loadgenerator:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/loadgenerator
-    tag: v0.10.5
+    tag: v0.10.4
   paymentservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/paymentservice
-    tag: v0.10.5
+    tag: v0.10.4
   productcatalogservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/productcatalogservice
-    tag: v0.10.5
+    tag: v0.10.4
   recommendationservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/recommendationservice
-    tag: v0.10.5
+    tag: v0.10.4
   shippingservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/shippingservice
-    tag: v0.10.5
+    tag: v0.10.4
 
 serviceAccounts:
   # Specifies whether service accounts should be created.

@@ -15,3 +15,10 @@ docker push ghcr.io/<git_username>/cartservice:v0.10.5
 
 adservice done
 carservice done
+
+// how to push upgraded version of your helm package;
+cd helm-chart
+ls
+
+helm package .
+helm push onlineboutique-0.10.5.tgz oci://ghcr.io/yasssh-bombale

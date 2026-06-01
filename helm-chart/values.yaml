@@ -41,7 +41,7 @@ images:
     tag: v0.10.5
   paymentservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/paymentservice
-    tag: v0.10.5
+    tag: sha-5d8069ef69201cf41f232864af9d4fed6ac62692
   productcatalogservice:
     repository: ghcr.io/yasssh-bombale/productcatalogservice
     tag: v0.10.5
@@ -50,7 +50,7 @@ images:
     tag: v0.10.5
   shippingservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/shippingservice
-    tag: v0.10.5
+    tag: sha-b525d1b501fdd12e70668b876b3c4b1d6bb2bf27
 
 serviceAccounts:
   # Specifies whether service accounts should be created.

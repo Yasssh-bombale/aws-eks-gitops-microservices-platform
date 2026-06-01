@@ -18,36 +18,36 @@
 
 images:
   adservice:
-    repository: ghcr.io/yasssh-bombale/adservice
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/adservice
     # Overrides the image tag whose default is the chart appVersion.
-    tag: v0.10.5
+    tag: sha-cb91c2fdb169872e90d2c26a4eb27838e0a55404
   cartservice:
-    repository: ghcr.io/yasssh-bombale/cartservice
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/cartservice
     tag: v0.10.5
   checkoutservice:
-    repository: ghcr.io/yasssh-bombale/checkoutservice
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/checkoutservice
+    tag: sha-13080675605735e4f4a71f52053bec483de4af4c
   currencyservice:
-    repository: ghcr.io/yasssh-bombale/currencyservice
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/currencyservice
+    tag: sha-3236ddf2acaa3a206aefad49ec97c47593ee5a3c
   emailservice:
-    repository: ghcr.io/yasssh-bombale/emailservice
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/emailservice
+    tag: sha-8f7e720a463d690aa2e45ddebd06bd1c9a6fbed8
   frontend:
-    repository: ghcr.io/yasssh-bombale/frontend
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/frontend
+    tag: sha-f0bd96de995866ea2c85c8bd33ffa37ad333cc70
   loadgenerator:
-    repository: ghcr.io/yasssh-bombale/loadgenerator
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/loadgenerator
+    tag: sha-caeddb82843d3e91bc3b8da1d20d89001dffbded
   paymentservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/paymentservice
     tag: sha-5d8069ef69201cf41f232864af9d4fed6ac62692
   productcatalogservice:
-    repository: ghcr.io/yasssh-bombale/productcatalogservice
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/productcatalogservice
+    tag: sha-89691c322221ff6613a12fe0cfe814fdaf6336b9
   recommendationservice:
-    repository: ghcr.io/yasssh-bombale/recommendationservice
-    tag: v0.10.5
+    repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/recommendationservice
+    tag: sha-2d5ddfdd0b6026c2bad51f8915657c6421690baa
   shippingservice:
     repository: ghcr.io/yasssh-bombale/aws-eks-gitops-microservices-platform/shippingservice
     tag: sha-b525d1b501fdd12e70668b876b3c4b1d6bb2bf27
